@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- <groupId>com.getui.gaoqm</groupId> -->
+    <artifactId>IO</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- 继承 -->
+    <parent>
+        <groupId>com.getui.gaoqm</groupId>
+        <artifactId>Father</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <!-- 通过相对路径的方式指定父工程的pom.xml文件 -->
+        <relativePath>../Father/pom.xml</relativePath>
+    </parent>
+
+    <!-- 添加依赖 -->
+    <dependencies>
+        <!-- 对juint jar包的依赖 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <!-- <version>4.13.2</version> -->
+            <!-- 依赖范围，默认的范围是compile -->
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

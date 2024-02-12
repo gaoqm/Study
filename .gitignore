@@ -1,2 +1,22 @@
 # 项目排除路径
-/out/
+/IO/target/classes
+/IO/target/generated-sources
+/IO/target/generated-test-sources
+/IO/target/maven-archiver
+/IO/target/maven-status
+/IO/target/surefire-reports
+/IO/target/test-classes
+/UseMaven_1/target/classes
+/UseMaven_1/target/generated-sources
+/UseMaven_1/target/generated-test-sources
+/UseMaven_1/target/maven-archiver
+/UseMaven_1/target/maven-status
+/UseMaven_1/target/surefire-reports
+/UseMaven_1/target/test-classes
+/UseMaven_2/target/classes
+/UseMaven_2/target/generated-sources
+/UseMaven_2/target/generated-test-sources
+/UseMaven_2/target/maven-archiver
+/UseMaven_2/target/maven-status
+/UseMaven_2/target/surefire-reports
+/UseMaven_2/target/test-classes

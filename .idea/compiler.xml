@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="UseMaven_2" />
         <module name="UseMaven_1" />
+        <module name="IO" />
       </profile>
     </annotationProcessing>
   </component>
