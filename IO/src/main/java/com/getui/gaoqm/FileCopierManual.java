@@ -14,12 +14,11 @@ public class FileCopierManual {
              FileOutputStream fos = new FileOutputStream(dest)) {
 
             byte[] buffer = new byte[1024]; // 创建一个缓冲区来存储数据
-            int length = fis.read(buffer);
+            int length;
 
             // 从源文件读取数据并写入目标文件，直到没有更多数据可读
-            while (length > 0) {
+            while ((length = fis.read(buffer)) != -1) {
                 fos.write(buffer, 0, length);
-                length = fis.read(buffer);
             }
         }
     }
